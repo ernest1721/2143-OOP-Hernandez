@@ -1,4 +1,3 @@
-'''python
 """
 Name: Ernest Hernandez
 Email: ernest1721@yahoo.com
@@ -211,4 +210,3 @@ def rm(d, x):
 
 rm(d, 2)
 print(d)
-'''
