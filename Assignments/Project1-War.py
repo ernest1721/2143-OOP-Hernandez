@@ -1,4 +1,13 @@
-#Ernest Hernandez
+
+"""
+Name: Ernest Hernandez
+Email: ernest1721@yahoo.com 
+Assignment: War Card Game
+Due: 17 Feb 2017 @ 12:00 a.m.
+"""
+
+# -*- coding: utf-8 -*-
+
 import os
 import random
 import time
