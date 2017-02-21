@@ -1,3 +1,4 @@
+```python
 
 """
 Name: Ernest Hernandez
@@ -336,3 +337,5 @@ def play_war():
         print("It's a DRAW")
     
 play_war()
+
+```
