@@ -220,7 +220,6 @@ if __name__ == "__main__":
         G1.sub_grid_dim(rowCol, rowCol)
 
         #Fills grid
-        #Nested for loop idea borrowed from David McGinn
         for x in range(rowCol):
             for y in range(rowCol):
                 for row in range(rowCol):
