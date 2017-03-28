@@ -210,7 +210,7 @@ class Grid():
         self.win.close()
     
 if __name__ == "__main__":
-    num = input('Enter a Number of Colors')
+    num = input('Enter a number for grid')
     n = int(num)
     
     #Test if number entered has a square root
