@@ -103,7 +103,7 @@ class Player(object):
   @Methods:
       
   """
-  def __init__(self,name=None, rolls = 6, strat=None):
+  def __init__(self,name=None, strat=None):
     self.name = name                        # Players name
     self.score = 0                          # Players score
     self.avg_rolls_per_round = 0            # average rolls per round
@@ -299,8 +299,8 @@ class PigGame(object):
         return None
         
 
-players = [Player('Bob', 6,'Sprint'),Player('Sue', 6,'Conser'),
-           Player('Dax', 6,'Aggres'),Player('Ann', 6,'Sprint')]
+players = [Player('Bob','Sprint'),Player('Sue','Conser'),
+           Player('Dax','Aggres'),Player('Ann','Sprint')]
 kwargs = {'num_dice':1,'random_roles':6,'target_score':100,'players':players}
 pg = PigGame(**kwargs)
 
