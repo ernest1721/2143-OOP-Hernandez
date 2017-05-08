@@ -140,7 +140,6 @@ print(aCube.surfaceArea() )
 
 def dupCount(s):
     s = s.lower()
-    string = list(s)
     new = []
     dup = []
     count = 0
