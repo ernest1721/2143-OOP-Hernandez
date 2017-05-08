@@ -1,5 +1,12 @@
 ```python
 
+"""
+Name:Ernest Hernandez
+Assignment: Test 3 - Final
+Date Due: May 10th, 12:00pm
+E-Mail: ernest1721@yahoo.com
+"""
+
 #Question 1
 
 def dirReduc(l):
